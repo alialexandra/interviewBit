@@ -57,7 +57,7 @@ public class Dequeue {
             // DO NOT USE ARGUMENTS FOR INPUTS
             // E.g. 'Scanner' for input & 'System.out' for output
 
-            Deque<Integer> queue= new Argthy5t4rrayDeque<>();
+            Deque<Integer> queue= new ArrayDeque<>();
             Scanner scanner =  new Scanner(System.in);
 
             int q = scanner.nextInt();
