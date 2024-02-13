@@ -13,6 +13,13 @@ class Main {
         int b = inp.nextInt();
         inp.close();
 
+                StringBuilder sb = new StringBuilder("stringbuilder");
+                System.out.println("string : "+sb);
+                // printing character at index value 2
+                System.out.println("character at index 2 : "+sb.charAt(2));
+                System.out.println(sb);
+
+
         pair obj  = new pair();
         System.out.println(obj.first + obj.second);
 
